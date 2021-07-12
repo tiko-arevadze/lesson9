@@ -1,0 +1,33 @@
+@media (max-width:770px) {
+	.navigation1 {
+		display: none;
+	}
+	.burger {
+		display: block;
+	}
+}
+@media (max-width:950px){
+    .nav-ul {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+@media (max-width:960px) {
+    .blocks {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+@media (max-width:850px) {
+    .up
+    .down {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+}
